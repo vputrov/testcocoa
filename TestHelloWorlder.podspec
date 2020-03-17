@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 This is a test application to get acquainted with creating, deploying and using of CocoaPods.
                        DESC
 
-  s.homepage         = 'https://github.com/Victor Putrov/TestHelloWorlder'
+  s.homepage         = 'https://github.com/vputrov/testcocoa'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Victor Putrov' => 'victor.putrov@aspose.com' }
