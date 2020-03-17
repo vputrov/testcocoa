@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestHelloWorlder'
   s.version          = '1.0.1'
-  s.summary          = 'A short description of TestHelloWorlder.'
+  s.summary          = 'A test application to demonstrate CocoaPods usage.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a test application to get acquainted with creating, deploying and using of CocoaPods.
                        DESC
 
   s.homepage         = 'https://github.com/Victor Putrov/TestHelloWorlder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Victor Putrov' => 'victor.putrov@aspose.com' }
-  s.source           = { :git => 'https://github.com/Victor Putrov/TestHelloWorlder.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vputrov/testcocoa.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
+  s.swift_version = "5.1.3"
 
   s.source_files = 'TestHelloWorlder/Classes/**/*'
 
